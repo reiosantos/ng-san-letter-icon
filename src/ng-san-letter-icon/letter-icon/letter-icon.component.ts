@@ -12,7 +12,7 @@ export class LetterIconComponent {
 	@Input() wordIndex: number;
 	@Input() backgroundColor = '#444444';
 
-	_words: string;
+	_words = '';
 
 	get words() {
 		let characters = '';

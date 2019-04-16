@@ -42,7 +42,7 @@ describe('LetterIconComponent', () => {
 	});
 
 	it('should not default to index 0 if wordIndex is greater', () => {
-		component.words = 'Ken';
+		component.words = 'Ken Kiso';
 		component.wordIndex = 7;
 		expect(component.words).toBe('K')
 	});
