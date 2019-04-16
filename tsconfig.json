@@ -2,6 +2,14 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@san/*": [
+        "src/app/*"
+      ],
+      "@san-letter-icon/*": [
+        "src/ng-san-letter-icon/*"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
