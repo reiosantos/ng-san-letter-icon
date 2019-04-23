@@ -1,6 +1,7 @@
 <div *ngFor="let name of names" class="my-letters">
 	<san-letter-icon
-		[backgroundColor]="color"
+		[backgroundColor]="backgroundColor"
+		[color]="color"
 		[numberOfCharactersPerWord]="chars"
 		[words]="name">
 	</san-letter-icon>

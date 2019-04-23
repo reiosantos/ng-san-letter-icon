@@ -29,7 +29,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {NgSanLetterIconModule} from 'san-letter-icon';
+import {NgSanLetterIconModule} from 'ng-san-letter-icon';
 
 @NgModule({
 	declarations: [
@@ -62,7 +62,11 @@ Use the ```san-letter-icon``` in your components
 
 * **backgroundColor** Optional
 	> Background Color of the icon
-	- Defaults to ```#444444```
+	- Defaults to ```#a100ff```
+	
+* **color** Optional
+	> Color of the letter icon
+	- Defaults to ```#ffffff```
 
 * **numberOfCharactersPerWord**
 	- This takes in the number of characters to extract from each word.

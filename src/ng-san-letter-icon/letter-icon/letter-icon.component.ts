@@ -10,7 +10,8 @@ export class LetterIconComponent {
 	@Input() characterPosition: number;
 	@Input() numberOfCharactersPerWord: 1 | 2 = 1;
 	@Input() wordIndex: number;
-	@Input() backgroundColor = '#444444';
+	@Input() backgroundColor = '#00b89b';
+	@Input() color = '#FFFFFF';
 
 	_words = '';
 
