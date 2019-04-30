@@ -80,6 +80,12 @@ Use the ```san-letter-icon``` in your components
 * **characterPosition**
 	> The position in the word from where to start character extraction, It defaults to 
 	position/index 0, the first character
+	
+* **strokeWidth**
+	> The border width of the circle, defaults to null
+	
+* **strokeColor**
+	> The border color, defaults to null
 
 ## License
 Apache 2.0

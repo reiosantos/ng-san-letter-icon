@@ -13,4 +13,6 @@ export class AppComponent {
 	chars: 1 | 2 = 1;
 	color = '#ffffff';
 	backgroundColor = '#a100ff';
+	strokeColor = '';
+	strokeWidth = 20;
 }

@@ -12,6 +12,8 @@ export class LetterIconComponent {
 	@Input() wordIndex: number;
 	@Input() backgroundColor = '#00b89b';
 	@Input() color = '#FFFFFF';
+	@Input() strokeWidth: number;
+	@Input() strokeColor: string;
 
 	_words = '';
 
